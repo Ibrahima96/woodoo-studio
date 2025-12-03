@@ -89,7 +89,7 @@ woodoo-studio/
 
 ## 🌐 Liens
 
-- **AI Studio** : [Voir l'app](https://ai.studio/apps/drive/16YapHlIzzLD4Pr8MCIQuFx7X1BBK57Xl)
+- **AI Studio** : [Voir l'app](https://woodoo-studio.vercel.app)
 - **Documentation** : [DOCUMENTATION.md](./DOCUMENTATION.md)
 
 ---
