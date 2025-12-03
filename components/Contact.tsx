@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
         </p>
 
         <a 
-          href="mailto:hello@woodoo.studio"
+          href="mailto:bicomlab@gmail.com"
           className="group relative inline-flex items-center gap-4 px-8 py-4 bg-white text-black rounded-full text-lg font-medium hover:scale-105 transition-transform duration-300"
         >
           <span>Lancer le projet</span>
@@ -39,11 +39,11 @@ const Contact: React.FC = () => {
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-16 text-sm text-neutral-500">
            <div className="flex flex-col gap-2">
               <span className="text-white font-medium">Email</span>
-              <a href="mailto:hello@woodoo.studio" className="hover:text-woodoo-accent transition-colors">hello@woodoo.studio</a>
+              <a href="mailto:bicomlab@gmail.com" className="hover:text-woodoo-accent transition-colors">bicomlab@gmail.com</a>
            </div>
            <div className="flex flex-col gap-2">
               <span className="text-white font-medium">Studio</span>
-              <span>Paris, France</span>
+              <span>Simal, Senegal</span>
            </div>
            <div className="flex flex-col gap-2">
               <span className="text-white font-medium">Social</span>
