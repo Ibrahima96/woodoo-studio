@@ -57,7 +57,7 @@ const MagicConcierge: React.FC = () => {
             <div className="text-xs font-bold tracking-widest text-woodoo-accent mb-3 uppercase">
               {result.tagline}
             </div>
-            <p className="text-neutral-400 text-sm leading-relaxed border-l-2 border-woodoo-accent/20 pl-3">
+            <p className="text-neutral-400 text-sm leading-relaxed border-l-2 border-woodoo-accent/20 pl-3 max-h-[240px] overflow-y-auto custom-scrollbar pr-2">
               {result.concept}
             </p>
             <button
@@ -80,8 +80,8 @@ const MagicConcierge: React.FC = () => {
               onClick={handleMagic}
               disabled={loading || !prompt}
               className={`w-full py-3 rounded-xl font-medium text-sm flex items-center justify-center gap-2 transition-all duration-300 ${loading || !prompt
-                  ? 'bg-neutral-800 text-neutral-500 cursor-not-allowed'
-                  : 'bg-white text-black hover:bg-woodoo-accent hover:text-white shadow-lg shadow-white/5'
+                ? 'bg-neutral-800 text-neutral-500 cursor-not-allowed'
+                : 'bg-white text-black hover:bg-woodoo-accent hover:text-white shadow-lg shadow-white/5'
                 }`}
             >
               {loading ? (
